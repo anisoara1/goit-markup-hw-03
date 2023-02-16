@@ -10,6 +10,7 @@
   --letter-spacing: 0.03em;
 }
 
+
 body {
   font-family: var(--font-family);
   font-weight: var(--font-weight);
@@ -20,21 +21,29 @@ body {
   font-style: normal;
 }
 
-
-
 .logo {
   font-family: 'Raleway';
-  color: var(--black);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+   color:var(--black)
 }
 
+.footer-logo{
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color:var(--white)
+}
+ 
 .logo-color {
   color: var(--blue);
 }
 
+.button-item-portofolio,
 .button-item {
   font-weight: 500;
   font-size: 16px;
@@ -46,6 +55,8 @@ body {
   border: none;
 }
 
+.button-item-portofolio:hover,
+.button-item-portofolio:focus,
 .button-item:hover,
 .button-item:focus {
   background: var(--blue);
@@ -88,6 +99,7 @@ body {
   color: var(--black);
 }
 
+.contact-section-footer,
 .portofolio-list,
 .our-team-image,
 .what-we-do-list,
@@ -116,7 +128,6 @@ body {
   letter-spacing: 0.06em;
   color: var(--white);
   text-align: center;
-  padding: 25%;
 }
 
  .our-service {
@@ -151,7 +162,7 @@ body {
 .our-team-specialist {
   font-size: 16px;
   line-height: 1.18;
-  font-weight: inherit;
+  font-weight:var(--font-weight);
   text-align: center;
   color: var(--medium-grey);
 }
@@ -167,4 +178,190 @@ body {
   font-size: 16px;
   line-height: 1.87;
   color: var(--medium-grey);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-section {
+  display: flex;
+  margin: 0 ;
+  align-items: center;
+  border-bottom: 1px solid #ECECEC;
+}
+
+.logo {
+  height: 31px;
+  margin: 24px 0 24px 215px;
+}
+
+.navigate-section {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 32px 0 32px 93px;
+  gap: 50px;
+}
+
+.contact-section {
+  height: 16px;
+  display: flex;
+  margin: 32px 215px 32px 385px;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 30px;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.button-item {
+  margin: 30px auto 200px auto;
+}
+
+.main-title {
+  padding-top: 200px ;
+  margin:0;
+}
+
+.second-section{
+   display: flex;
+   margin: 0;
+}
+
+.our-service-list {
+  margin: 94px 215px;
+  padding:0;
+  display: flex;
+  flex-direction: row; 
+  gap: 30px;
+}
+
+.our-service-list p {
+  margin: 10px 0 0 0;
+}
+
+.third-section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.third-section h2 {
+  margin: 0;
+}
+
+.what-we-do-list {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0 0 94px 0;
+  justify-content: center;
+}
+
+.last-section {
+  display:flex;
+  flex-direction: column;
+}
+
+.last-section h2{
+  margin: 94px 0;
+}
+
+.our-team-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 50px 215px 94px 215px;
+}
+
+.our-team-photo {
+  display: block;
+}
+
+.our-team-list h3 {
+  padding: 30px 62px 10px 63px ;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.our-team-list h4 {
+  padding:0 0 30px 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin: 0;
+}
+
+.footer-logo {
+  margin: 60px auto auto 215px;
+}
+
+.contact-section-footer {
+  display: flex;
+  flex-direction: column;
+  margin: 28px auto 60px 215px;
+  padding:0;
+  gap: 12px;
+}
+
+.button-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 8px;
+  margin: 94px 564px 0 542px;
+  padding:0;
+}
+
+.button-item-portofolio {
+  padding: 0;
+}
+
+.portofolio-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.portofolio-section {
+  margin: 50px auto 94px auto;
+}
+
+ .portofolio-list li {
+  border: 1px solid #EEEEEE;
+}
+
+.portofolio-list-image h2 {
+  padding: 30px 62px 10px 63px ;
+  margin: 0
+} 
+
+.portofolio-list-image h3 {
+  padding:0 0 30px 0;
+  margin: 0;
 }
