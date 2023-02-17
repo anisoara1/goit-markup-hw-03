@@ -83,6 +83,7 @@ body {
 }
 
 .contact-item-footer:hover,
+.contact-item-footer:focus,
 .navigate-item:hover,
 .navigate-item:focus,
 .contact-item:hover,
@@ -264,6 +265,7 @@ body {
   width: 1600px;
   display: flex;
   flex-direction: column;
+  gap: 50px;
 }
 
 .third-section h2 {
