@@ -187,13 +187,14 @@ body {
 }
 
 .container {
-  width: 1200px;
-  margin: 0 auto;
+  width: 1600px;
+  margin: 0 ;
   display: flex;
   flex-direction: column;
 }
 
 .header-section {
+  width: 1600px;
   display: flex;
   margin: 0 ;
   align-items: center;
@@ -224,9 +225,10 @@ body {
 }
 
 .first-section {
+  width: 1600px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 0 ;
   align-items: center;
 }
 
@@ -240,8 +242,10 @@ body {
 }
 
 .second-section{
+  width: 1600px;
    display: flex;
-   margin: 0;
+   margin: 0 auto 0 auto;
+   box-sizing: border-box;
 }
 
 .our-service-list {
@@ -257,9 +261,9 @@ body {
 }
 
 .third-section {
+  width: 1600px;
   display: flex;
   flex-direction: column;
-  gap: 50px;
 }
 
 .third-section h2 {
@@ -272,11 +276,14 @@ body {
   padding: 0;
   margin: 0 0 94px 0;
   justify-content: center;
+  gap: 30px;
 }
 
 .last-section {
+  width: 1600px;
   display:flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .last-section h2{
@@ -307,6 +314,7 @@ body {
 }
 
 .footer-section {
+  width: 1600px;
   display: flex;
   flex-direction: column;
   align-content: flex-start;
@@ -331,37 +339,47 @@ body {
   justify-content: center;
   align-content: center;
   gap: 8px;
-  margin: 94px 564px 0 542px;
+  margin: 94px auto 0 auto;
   padding:0;
 }
 
+.button-section{
+  width: 1600px;
+}
+
 .button-item-portofolio {
-  padding: 0;
+  padding: 6px 22px;
 }
 
 .portofolio-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 30px 30px;
-  margin: 0;
+  gap: 27px 27px;
+  margin: 50px 215px 94px 215px;
   padding: 0;
 }
 
 .portofolio-section {
-  margin: 50px auto 94px auto;
+   width: 1600px;
+}
+
+.portofolio-list-image{
+  height: 294px;
 }
 
  .portofolio-list li {
   border: 1px solid #EEEEEE;
 }
 
-.portofolio-list-image h2 {
-  padding: 30px 62px 10px 63px ;
-  margin: 0
+.project-title {
+  padding: 20px 24px 0 24px ;
+  margin: 0;
+  
 } 
 
-.portofolio-list-image h3 {
-  padding:0 0 30px 0;
+.project-type {
+  font-weight: 400;
+  padding:4px 24px 20px 24px;
   margin: 0;
 }
