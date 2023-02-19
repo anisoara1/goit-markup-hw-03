@@ -195,7 +195,7 @@ body {
 }
 
 .header-section {
-  width: 1600px;
+  width: 100%;
   display: flex;
   margin: 0 ;
   align-items: center;
@@ -226,7 +226,7 @@ body {
 }
 
 .first-section {
-  width: 1600px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 0 ;
@@ -244,7 +244,7 @@ body {
 }
 
 .second-section{
-  width: 1600px;
+  width: 100%;
    display: flex;
    margin: 0 auto 0 auto;
    box-sizing: border-box;
@@ -263,7 +263,7 @@ body {
 }
 
 .third-section {
-  width: 1600px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -283,7 +283,7 @@ body {
 }
 
 .last-section {
-  width: 1600px;
+  width: 100%;
   display:flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -317,7 +317,7 @@ body {
 }
 
 .footer-section {
-  width: 1600px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-content: flex-start;
@@ -347,7 +347,7 @@ body {
 }
 
 .button-section{
-  width: 1600px;
+  width: 100%;
 }
 
 .button-item-portofolio {
@@ -364,7 +364,7 @@ body {
 }
 
 .portofolio-section {
-   width: 1600px;
+   width: 100%;
 }
 
 .portofolio-list-image{
