@@ -139,6 +139,7 @@ body {
 .about-us {
   line-height: 1.71;
   color: var(--medium-grey);
+  
 }
 
 .what-we-do-section,
@@ -188,14 +189,12 @@ body {
 }
 
 .container {
-  width: 1600px;
+  width: 1200px;
   margin: 0 ;
-  display: flex;
-  flex-direction: column;
 }
 
 .header-section {
-  width: 100%;
+  width: 134%;
   display: flex;
   margin: 0 ;
   align-items: center;
@@ -226,7 +225,7 @@ body {
 }
 
 .first-section {
-  width: 100%;
+  width: 134%;
   display: flex;
   flex-direction: column;
   margin: 0 ;
@@ -245,21 +244,26 @@ body {
 
 .second-section{
   width: 100%;
-   display: flex;
-   margin: 0 auto 0 auto;
-   box-sizing: border-box;
+  display: flex;
+  margin: 0 auto 0 auto;
+  box-sizing: border-box;
+  margin: 0 0 0 215px;
 }
 
+ .second-section h3 {
+ width: 270px;
+ height: 16px;
+ margin: 0;
+ }
 .our-service-list {
-  margin: 94px 215px;
+  margin: 94px 0 0 0px;
   padding:0;
   display: flex;
   flex-direction: row; 
   gap: 30px;
-}
-
-.our-service-list p {
-  margin: 10px 0 0 0;
+  width: 270px;
+  height: 75px;
+  margin: 94px 0 0 0;
 }
 
 .third-section {
@@ -267,10 +271,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  margin: 0 0 0 208px;
 }
 
 .third-section h2 {
-  margin: 0;
+  margin: 94px 0 0 0;
 }
 
 .what-we-do-list {
@@ -283,14 +288,15 @@ body {
 }
 
 .last-section {
-  width: 100%;
+  width: 134%;
   display:flex;
   flex-direction: column;
   box-sizing: border-box;
+  margin: 94px 0 0 0;
 }
 
 .last-section h2{
-  margin: 94px 0;
+  margin: 94px 0 0 0;
 }
 
 .our-team-list {
@@ -298,6 +304,7 @@ body {
   flex-direction: row;
   gap: 30px;
   margin: 50px 215px 94px 215px;
+  padding: 0;
 }
 
 .our-team-photo {
@@ -317,7 +324,7 @@ body {
 }
 
 .footer-section {
-  width: 100%;
+  width: 134%;
   display: flex;
   flex-direction: column;
   align-content: flex-start;
@@ -342,7 +349,7 @@ body {
   justify-content: center;
   align-content: center;
   gap: 8px;
-  margin: 94px auto 0 auto;
+  margin: 94px 0 0 215px;
   padding:0;
 }
 
@@ -359,12 +366,13 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 27px 27px;
-  margin: 50px 215px 94px 215px;
+  margin: 50px 0px 94px 0px;
   padding: 0;
 }
 
 .portofolio-section {
    width: 100%;
+   margin: 94px 0 0 215px;
 }
 
 .portofolio-list-image{
