@@ -27,7 +27,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-   color:var(--black)
+  color:var(--black)
 }
 
 .footer-logo{
@@ -235,7 +235,8 @@ body {
 
 .button-item {
   margin: 30px auto 200px auto;
-}
+  padding: 9px 20px;
+} 
 
 .main-title {
   padding-top: 200px ;
