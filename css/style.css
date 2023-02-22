@@ -68,8 +68,8 @@ body {
     0px 1px 2px rgba(0, 0, 0, 0.08), 
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
-.contact-item {
+.contact-telephone,
+.contact-mail{
   font-weight: 500;
   line-height: 1.42;
   letter-spacing: 0.02em;
@@ -83,12 +83,14 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.contact-mail:hover,
+.contact-mail:focus,
+.contact-telephone:hover,
+.contact-telephone:focus,
 .contact-item-footer:hover,
 .contact-item-footer:focus,
 .navigate-item:hover,
-.navigate-item:focus,
-.contact-item:hover,
-.contact-item:focus {
+.navigate-item:focus {
   color: var(--blue);
 }
 
@@ -191,88 +193,90 @@ body {
 
 .container {
   width: 1200px;
-  margin: 0 ;
+  margin: 0; 
+  display:flex;
+  flex-direction: column;
+}
+ 
+ .header-section {
+  margin:0;
+  width: 1600px;
+  padding:0 215px 0 215px;
+  border-bottom: 1px solid #ECECEC;
 }
 
-.header-section {
-  width: 134%;
+.header{
   display: flex;
-  margin: 0 ;
-  align-items: center;
-  border-bottom: 1px solid #ECECEC;
+  flex-direction: row;
 }
 
 .logo {
   height: 31px;
-  margin: 24px 0 24px 215px;
+  margin: 24px 0 25px 0;
 }
 
 .navigate-section {
   display: flex;
   flex-direction: row;
   padding: 0;
-  margin: 32px 0 32px 93px;
+  margin: 32px 0 0 93px;
   gap: 50px;
 }
 
 .contact-section {
-  height: 16px;
   display: flex;
-  margin: 32px 215px 32px 385px;
-  flex-direction: row;
-  align-items: center;
+  gap: 40px;
   padding: 0;
-  gap: 30px;
+  margin: 32px 0 0 385px;
 }
 
 .first-section {
-  width: 134%;
+  width: 1600px;
   display: flex;
-  flex-direction: column;
-  margin: 0 ;
-  align-items: center;
+  align-content: center;
 }
 
 .button-item {
-  margin: 30px auto 200px auto;
   padding: 9px 20px;
+  margin: 30px auto 200px 700px;
 } 
 
 .main-title {
-  padding-top: 200px ;
-  margin:0;
+  width: 696px;
+  height: 120px;
+  margin: 200px auto 0 452px;
 }
 
 .second-section{
   width: 100%;
   display: flex;
-  margin: 0 auto 0 auto;
-  box-sizing: border-box;
-  margin: 0 0 0 215px;
+  padding: 0 215px 0 215px;
 }
 
- .second-section h3 {
- width: 270px;
- height: 16px;
- margin: 0;
- }
+.second-section h3 {
+ margin:0px;
+}
+
 .our-service-list {
   margin: 94px 0 0 0px;
   padding:0;
   display: flex;
   flex-direction: row; 
+  align-items:center;
   gap: 30px;
+}
+
+.our-service-list p{
   width: 270px;
-  height: 75px;
-  margin: 94px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 .third-section {
   width: 100%;
+  padding: 0 215px 0 215px;
   display: flex;
   flex-direction: column;
   gap: 50px;
-  margin: 0 0 0 208px;
 }
 
 .third-section h2 {
@@ -284,16 +288,14 @@ body {
   flex-direction: row;
   padding: 0;
   margin: 0 0 94px 0;
-  justify-content: center;
   gap: 30px;
 }
 
 .last-section {
-  width: 134%;
+  width: 100%;
+  padding: 0 215px 0 215px;
   display:flex;
   flex-direction: column;
-  box-sizing: border-box;
-  margin: 94px 0 0 0;
 }
 
 .last-section h2{
@@ -303,9 +305,10 @@ body {
 .our-team-list {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   gap: 30px;
-  margin: 50px 215px 94px 215px;
   padding: 0;
+  margin: 50px 0 94px 0;
 }
 
 .our-team-photo {
@@ -325,7 +328,7 @@ body {
 }
 
 .footer-section {
-  width: 134%;
+  width: 1600px;
   display: flex;
   flex-direction: column;
   align-content: flex-start;
@@ -344,18 +347,17 @@ body {
   gap: 12px;
 }
 
-.button-section{
+.contact-telephone:hover {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-content: center;
-  gap: 8px;
-  margin: 94px 0 0 215px;
-  padding:0;
 }
 
-.button-section{
-  width: 100%;
+.button-section {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin: 94px 0 0 327px;
+  padding: 0;
 }
 
 .button-item-portofolio {
@@ -366,14 +368,16 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 27px 27px;
+  gap: 30px 30px;
   margin: 50px 0px 94px 0px;
   padding: 0;
 }
 
 .portofolio-section {
-   width: 100%;
-   margin: 94px 0 0 215px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding:0 215px 0 215px;
 }
 
 .portofolio-list-image{
@@ -387,7 +391,6 @@ body {
 .project-title {
   padding: 20px 24px 0 24px ;
   margin: 0;
-  
 } 
 
 .project-type {
