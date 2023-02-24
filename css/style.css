@@ -199,8 +199,7 @@ body {
 }
  
  .header-section {
-  width: 1600px;
-  padding: 0 215px 0 215px;
+  margin: 0 215px 0 215px;
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -224,31 +223,26 @@ body {
   gap: 40px;
 }
  
-.first-section {
-  width: 1600px;
-  display: flex;
-  align-content: center;
-  padding: 0 452px 0 452px;
-}
-
 .button-item {
  width: 200px;
  height: 50px;
- margin: 30px 0 200px 248px ;
+ margin: 30px 720px 200px 720px;
 } 
-
+  
 .main-title {
-  margin: 200px 0 0 0;
+  width: 696px;
+  height: 120px;
+  margin: 200px 452px 0 452px;
 } 
 
 .second-section{
   width: 100%;
   display: flex;
-  padding: 0 215px 0 215px;
+  margin: 0 215px 0 215px;
 }
 
 .second-section h3 {
- margin:0px;
+ margin: 0;
 }
 
 .our-service-list {
@@ -266,7 +260,7 @@ body {
 
 .third-section {
   width: 100%;
-  padding: 0 215px 0 215px;
+  margin: 0 215px 0 215px;
   display: flex;
 }
 
@@ -285,10 +279,7 @@ body {
   display: block;
 }
 
-.last-section {
-  width: 1600px;
-  padding: 0 215px 0 215px;
-}
+
 
 .last-section h2{
   margin: 94px 0 0 0;
@@ -308,34 +299,31 @@ body {
 .our-team-list h3 {
   padding: 0;
   margin: 30px 0 0 0;
-  background-color: #ffffff;
 }
 
 .our-team-list h4 {
   padding: 0;
   margin: 10px 0 30px 0;
-  background-color: #ffffff;
 }
 
 .our-team-image {
+  background: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
 .footer-section {
-  width: 1600px;
   display: flex;
   flex-direction: column;
-  padding: 0 215px 0 215px;
 }
 
 .footer-logo{
-  margin: 90px 0 0 0;
+  margin: 90px 0 0 215px;
 }
 .contact-section-footer {
   display: flex;
   flex-direction: column;
-  margin: 28px 0 94px 0;
+  margin: 28px 0 94px 215px;
   padding: 0;
   gap: 12px;
 }
@@ -361,7 +349,7 @@ body {
 
 .portofolio-section {
   width: 100%;
-  padding: 0 215px 0 215px;
+  margin: 0 215px 0 215px;
   display: flex;
   flex-direction: column;
 }
