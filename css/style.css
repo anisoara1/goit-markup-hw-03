@@ -199,9 +199,8 @@ body {
 }
  
  .header-section {
-  margin:0;
   width: 1600px;
-  padding:0 215px 0 215px;
+  padding: 0 215px 0 215px;
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -213,14 +212,14 @@ body {
 
 .navigate-section {
   display: flex;
-  padding: 32px 0 32px 93px;
+  padding:0;
   gap: 50px;
-  margin: 0;
+  margin: 32px 0 32px 93px;
 }
 
 .contact-section {
-  padding: 32px 0 32px 385px;
-  margin: 0;
+  padding: 0;
+  margin:  32px 0 32px 385px;
   display: flex;
   gap: 40px;
 }
@@ -229,30 +228,23 @@ body {
   width: 1600px;
   display: flex;
   align-content: center;
-  gap: 30px;
-  padding: 200px 452px 280px 452px;
-}
-.studio-title {
-  display: flex;
-  flex-direction:column;
-  align-items: center;
-  gap: 30px;
+  padding: 0 452px 0 452px;
 }
 
 .button-item {
  width: 200px;
  height: 50px;
- margin: 0 ;
+ margin: 30px 0 200px 248px ;
 } 
 
 .main-title {
-  margin: 0;
+  margin: 200px 0 0 0;
 } 
 
 .second-section{
   width: 100%;
   display: flex;
-  padding: 94px 215px 0 215px;
+  padding: 0 215px 0 215px;
 }
 
 .second-section h3 {
@@ -260,7 +252,7 @@ body {
 }
 
 .our-service-list {
-  margin: 0px;
+  margin: 94px 0 0 0;
   padding:0;
   display: flex;
   gap: 30px;
@@ -268,18 +260,18 @@ body {
 
 .our-service-list p{
   width: 270px;
-  padding: 10px 0 0 0;
-  margin: 0;
+  padding: 0;
+  margin: 10px 0 0 0;
 }
 
 .third-section {
   width: 100%;
-  padding: 94px 215px 94px 215px;
+  padding: 0 215px 0 215px;
   display: flex;
 }
 
 .third-section h2 {
-  margin:0;
+  margin: 94px 0 0 0 ;
 }
 
 .what-we-do-list {
@@ -295,18 +287,18 @@ body {
 
 .last-section {
   width: 1600px;
-  padding: 94px 215px 94px 215px;
+  padding: 0 215px 0 215px;
 }
 
 .last-section h2{
-  margin:  0;
+  margin: 94px 0 0 0;
 }
 
 .our-team-list {
   display: flex;
   gap: 30px;
-  padding: 50px 0 0 0;
-  margin: 0;
+  padding:  0;
+  margin: 50px 0 94px 0;
 }
 
 .our-team-photo {
@@ -314,14 +306,14 @@ body {
 }
 
 .our-team-list h3 {
-  padding: 30px 62px 10px 63px ;
-  margin: 0;
+  padding: 0;
+  margin: 30px 0 0 0;
   background-color: #ffffff;
 }
 
 .our-team-list h4 {
-  padding:0 0 30px 0;
-  margin: 0;
+  padding: 0;
+  margin: 10px 0 30px 0;
   background-color: #ffffff;
 }
 
@@ -334,22 +326,25 @@ body {
   width: 1600px;
   display: flex;
   flex-direction: column;
-  padding: 60px 215px 60px 215px;
+  padding: 0 215px 0 215px;
 }
 
+.footer-logo{
+  margin: 90px 0 0 0;
+}
 .contact-section-footer {
   display: flex;
   flex-direction: column;
-  margin: 0;
-  padding: 28px 0 0 0;
+  margin: 28px 0 94px 0;
+  padding: 0;
   gap: 12px;
 }
 
 .button-section {
   display: flex;
   gap: 8px;
-  margin: 0;
-  padding: 0 0 50px 327px;
+  margin: 94px 0 0 327px;
+  padding: 0;
 }
 
 .button-item-portofolio {
@@ -360,13 +355,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 30px 30px;
-  margin:0;
+  margin: 50px 0 94px 0;
   padding: 0; 
 }
 
 .portofolio-section {
   width: 100%;
-  padding: 94px 215px 94px 215px;
+  padding: 0 215px 0 215px;
   display: flex;
   flex-direction: column;
 }
@@ -380,13 +375,13 @@ body {
 }
 
 .project-title {
-  padding: 20px 24px 0 24px ;
-  margin: 0;
+  padding: 0;
+  margin: 20px 24px 0 24px;
 } 
 
 .project-type {
   font-weight: 400;
-  padding:4px 24px 20px 24px;
-  margin: 0;
+  padding: 0;
+  margin: 4px 24px 20px 24px;
 }
  
